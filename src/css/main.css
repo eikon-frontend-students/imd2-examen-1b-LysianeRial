@@ -75,6 +75,30 @@ video {
 
 /* 01. Sélecteurs CSS */
 
+.selectors h2 {
+  font-family: Playfair display;
+}
+
+.selectors h3 {
+  font-family: Playfair display;
+}
+
+.section-sport h3 {
+  color: #c1121f;
+}
+
+.section-culture h3 {
+  color: #669bbc;
+}
+
+.section-regions .highlight {
+  font-weight: bold;
+}
+
+.highlight.colored {
+  background-color: #fdf0d5;
+}
+
 /* 02. Centrer horizontalement */
 
 .link {
@@ -92,6 +116,15 @@ video {
   color: #fdf0d5;
   font-family: "Playfair Display";
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* 03. Centrer verticalement */
@@ -103,6 +136,8 @@ video {
   padding: 20px;
   border-radius: 10px;
   background: #669bbc;
+  display: flex;
+  align-items: center;
 }
 
 .button {
@@ -111,6 +146,65 @@ video {
   background: #780000;
   color: #fdf0d5;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* 04. Intégration */
+
+.img {
+  width: 251.004px;
+  height: 250px;
+  border-radius: 20px 20px 00px 00px;
+}
+
+.exercice-four {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.enveloppe {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+
+.name .ap {
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: #fbbd3c;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.infos {
+  display: flex;
+  height: 50px;
+  padding: 0px 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 76px;
+}
